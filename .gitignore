@@ -1,0 +1,50 @@
+# ====================================
+# Kantin Online - .gitignore
+# ====================================
+
+# Database Configuration
+config.php
+
+# Upload Folders (User Generated Content)
+assets/uploads/*
+!assets/uploads/.gitkeep
+assets/uploads/menu/*
+!assets/uploads/menu/.gitkeep
+assets/uploads/users/*
+!assets/uploads/users/.gitkeep
+
+# QR Code Generated Files
+assets/qrcodes/*
+!assets/qrcodes/.gitkeep
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+
+# Log Files
+*.log
+error_log
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*~
+README_OLD.md
+
+# Development Files
+test_*.php
+debug_*.php
+temp_*.php
+
+# Environment Files
+.env
+.env.local
